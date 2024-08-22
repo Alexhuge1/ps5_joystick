@@ -7,9 +7,13 @@ ls
 cat /dev/input/js0 | hexdump查看
 
 2.代码逻辑：
+
 初始化轴名称字典 axis_names
+
 初始化按钮名称字典 button_names
+
 初始化轴映射列表 axis_map
+
 初始化按钮映射列表 button_map
 
 定义函数 ps5_open(device_path):
@@ -41,7 +45,7 @@ cat /dev/input/js0 | hexdump查看
                     打印轴名称和标准化后的值
 
         循环结束条件为 False（即无限循环)
-
+        
 结束程序
 
 REF：https://blog.csdn.net/rzdyzx/article/details/101483596
